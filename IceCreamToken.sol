@@ -3,6 +3,14 @@ pragma solidity ^0.4.18;
 import './IERC20.sol';
 import './SafeMath.sol';
 
+    //last updated 02.27.2018 by pete, 
+    //goal: 
+    //1billion SCOOP, 600m crowdsale, 400m team
+    //price 1 SCOOP = .00004 ETH
+    //finish by 04.01.18
+    
+    
+
 contract IceCream is IERC20 {
     
     using SafeMath for uint256;

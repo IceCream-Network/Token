@@ -23,8 +23,10 @@ contract IceCream is IERC20 {
     
     using SafeMath for uint256;
     
-    uint256 public _totalSupply = 100000000 * (10 ** uint256(decimals));
-    uint public _publicAmount = 600000000 * (10 ** uint256(decimals));
+    uint256 private constant TOKEN_UNIT = 10 ** uint256(decimals);
+    
+    uint256 public _totalSupply = 100000000;
+    uint public _publicAmount = 552000000;
     
     string public constant symbol = "SCOOP";
     string public constant name = "IceCream";
@@ -80,7 +82,7 @@ contract IceCream is IERC20 {
         require(
             allowed[_from][msg.sender] >= _value
             && balances[_from] >= _value
-            && _value > 0
+            && _value > 400000000
         );
         balances[_from] = balances[_from].sub(_value);
         balances[_to] = balances[_to].add(_value);

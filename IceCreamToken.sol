@@ -3,11 +3,22 @@ pragma solidity ^0.4.18;
 import './IERC20.sol';
 import './SafeMath.sol';
 
-    //last updated 02.27.2018 by pete, 
-    //goal: 
-    //1billion SCOOP, 600m crowdsale, 400m team
-    //price 1 SCOOP = .00004 ETH
-    //finish by 04.01.18
+    //last updated 02.27.2018 by pete,  
+    //1billion SCOOP tokens, 60% public, 40% team = 552m crowdsale, 48m public giveaway, 400m team
+    //1 SCOOP = .00004 ETH
+    //22.08 ETH CAP
+        //SCOOP tokens will be transfered to SCOOP coin in 2020 with launch of IceCream-Net via ETH contract registration.
+        //Blockchain consensus protocol: Proof of Elapsed Time, idea by Intel®.
+        //Software: CONE application, Java coding for Android. Later dev. for Windows and iOS.
+    //don't get greedy! be honest and open!
+    //30% of public sale will be used for hiring new junior developers and other team members.
+    //20% of public sale will be used for additional partnerships, sponsorships, and conferences.
+        //Save a reserve for hardware wallet security funding when IceCream blockchain launches.
+    //50% will be paid to existing team members to fund their work in quarterly installments over two years.
+    
+    //say no to drugs... just code
+    
+    //NOW HIRING BLOCKCHAIN & SOFTWARE DEVS!
     
     
 
